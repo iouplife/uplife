@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Up Life</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="p1">1. Você se consideera sedentário?</string>
+    <string name="p2">2. Você pratica esportes?</string>
+    <string name="p3">3. Com qual atividade física você se identifica?</string>
+    <string name="p4">4. Qual o seu peso?</string>
+    <string name="p5">5. Qual a sua altura?</string>
+
+    <string name="abriu">ABRIU</string>
+    <string name="fechou">FECHOU</string>
+
+    <string-array name="menu">
+        <item>Perfil</item>
+        <item>Grupos</item>
+        <item>Lugares para exercícios</item>
+        <item>Eventos</item>
+        <item>Dietas</item>
+    </string-array>
+
+    <string-array name="workout_routineA">
+        <item>Supino Reto 30x30/20/10</item>
+        <item>Supino Inclinado 30x30/20/10</item>
+        <item>Voador 3x30/20/10</item>
+    </string-array>
+
+    <string-array name="workout_routineB">
+        <item>Mergulho no Banco 3x30/20/10</item>
+        <item>Tríceps com Corda 3x30/20/10</item>
+        <item>Tríceps com Polia 3x30/20/10</item>
+    </string-array>
+
+    <string-array name="workout_routineC">
+        <item>Puxada Frontal 3x30/20/10</item>
+        <item>Puxada Sentado 3x30/20/10</item>
+        <item>Remada Curvada 3x30/20/10</item>
+    </string-array>
+
+    <string-array name="exercises">
+        <item>Musculação</item>
+        <item>Yoga</item>
+        <item>Ballet fitness</item>
+        <item>Crossfit</item>
+        <item>Hidroginástica</item>
+        <item>Pilates</item>
+        <item>Vôlei</item>
+        <item>Boxe</item>
+        <item>Corrida</item>
+        <item>Dança de salão</item>
+        <item>Stand up paddle</item>
+        <item>Power Jump</item>
+        <item>Patins</item>
+        <item>Handball</item>
+        <item>Alongamento</item>
+        <item>Jiu Jitsu</item>
+        <item>Caminhada</item>
+        <item>Natação</item>
+        <item>Dança do ventre</item>
+        <item>Pole dance</item>
+        <item>Bike</item>
+        <item>Insanity</item>
+        <item>Zumba</item>
+        <item>Ballet clássico</item>
+        <item>Surf</item>
+        <item>Tênis</item>
+        <item>Escalada</item>
+        <item>Capoeira</item>
+        <item>Circuito</item>
+        <item>Step</item>
+        <item>Kangoo jumps</item>
+        <item>Remo</item>
+        <item>Street dance</item>
+        <item>Ginástica olímpica</item>
+        <item>Sh’bam</item>
+        <item>Lambaeróbica</item>
+        <item>Skate</item>
+        <item>Taekwondo</item>
+        <item>Jazz musical</item>
+        <item>Slackline</item>
+        <item>Spinning</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.giog.uplife.LoginFragment">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:src="@drawable/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etLogin"
+                android:inputType="textAutoComplete"
+                android:layout_margin="10dp"
+                android:hint="E-mail"
+                android:layout_below="@id/logo"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:inputType="textPassword"
+                android:layout_margin="10dp"
+                android:hint="Senha"
+                android:layout_below="@id/logo"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Entrar" />
+
+        <TextView
+            android:id="@+id/singup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadastre-se"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnLoginFB"
+            android:padding="5dp"
+            android:textColor="#fff"
+            android:background="#22F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login com o Facebook"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/btnLoginG"
+            android:padding="5dp"
+            android:textColor="#fff"
+            android:background="#F22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login com o Google+" />
+    </LinearLayout>
+</ScrollView>
