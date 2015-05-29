@@ -29,21 +29,25 @@ public class PlacesFragment extends Fragment {
 
         List<ListItem> list = new ArrayList<>();
 
+        list.add(new ListItem(R.drawable.place4,"Academia Raíz",
+                "Localizada no Potal, a academia raíz conta com os melhores equipamentos da cidade. Venha fazer uma visita",
+                "",true));
+
+        list.add(new ListItem(R.drawable.place5,"Academia Monster Corpus",
+                "Academia bem equipada e com preços acessíveis localizada na Baixada do Golias",
+                "",false));
+
         list.add(new ListItem(R.drawable.place1,"Pracinha da saúde",
                               "Pracinha localizada no bairro do limoeiro com vista para o mar. Ótimo lugar para se exercitar",
-                              ""));
+                              "",false));
 
         list.add(new ListItem(R.drawable.place2,"Academia a céu aberto",
                 "Ambiente agradável e com ar puro. Próxima ao condomínio morada de Zeus no Bairro Vermlho",
-                ""));
+                "",false));
 
         list.add(new ListItem(R.drawable.place3,"Porto de caiaque",
                 "Equipamentos para se exercitar de graça ao lado de aluguel de caiaques. Termine seus exercícios remando na praia da Vista Vascaína",
-                ""));
-
-        list.add(new ListItem(R.drawable.place4,"Academia Raíz",
-                "Localizada no Potal, a academia raíz conta com os melhores equipamentos da cidade. Venha fazer uma visita",
-                ""));
+                "",false));
 
         ListView listView = (ListView) view.findViewById(R.id.list);
 

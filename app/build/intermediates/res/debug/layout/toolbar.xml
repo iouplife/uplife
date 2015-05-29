@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/abc_action_bar_default_height_material"
+    android:orientation="horizontal"
+    android:gravity="right">
+
+    <EditText
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:hint="Buscar"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cart_img"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_search"/>
+</LinearLayout><!-- From: file:/C:/Users/Giovanne/AndroidStudioProjects/UpLife/app/src/main/res/layout/toolbar.xml -->

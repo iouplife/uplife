@@ -30,6 +30,18 @@
                 android:text="Title" />
 
             <TextView
+                android:id="@+id/tvParceiro"
+                android:visibility="gone"
+                android:layout_below="@id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:background="#F55"
+                android:text="Parceiro" />
+
+            <TextView
                 android:id="@+id/tvDate"
                 android:layout_below="@id/tvTitle"
                 android:layout_alignParentRight="true"
@@ -37,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:text="00/00" />
         </RelativeLayout>
 

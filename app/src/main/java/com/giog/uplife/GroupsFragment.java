@@ -36,19 +36,19 @@ public class GroupsFragment extends Fragment {
 
         list.add(new ListItem(0,"Grupo da maromba",
                               "Grupo criado para juntar a galera que gosta de uma boa malhação ao ar livre",
-                              ""));
+                              "",false));
 
         list.add(new ListItem(0,"Todos zen",
                 "Junte-se a nós e seja zen praticando Yoga na praia durante todo o dia e aproveite para dar tchau ao Sol às 17:30",
-                ""));
+                "",false));
 
         list.add(new ListItem(0,"3ª Idade Fit",
                 "Grupo criado com o intuito de educar fisicamente idosos garantindo-lhes boa saúde e condição de vida. Você também pode participar como voluntário",
-                ""));
+                "",false));
 
         list.add(new ListItem(0,"Grupo da gastronomia do bem",
                 "Sempre discutimos receitas saudáveis mas deliciosas. Satisfaça seu paladar sem sair da dieta",
-                ""));
+                "",false));
 
         ListView listView = (ListView) view.findViewById(R.id.list);
 

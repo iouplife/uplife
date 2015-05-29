@@ -18,7 +18,12 @@
         </activity>
         <activity
             android:name=".HomeActivity"
-            android:label="HomeActivity"
+            android:label="Home"
+            android:theme="@style/AppThemeNoActionBar">
+        </activity>
+        <activity
+            android:name=".ConfigActivity"
+            android:label="Configurações"
             android:theme="@style/AppThemeNoActionBar">
         </activity>
     </application>

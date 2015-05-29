@@ -48,6 +48,7 @@ public class CustomListAdapter extends BaseAdapter {
 
         ImageView imageView = (ImageView) convertView.findViewById(R.id.image);
         TextView tvTitle = (TextView) convertView.findViewById(R.id.tvTitle);
+        TextView tvParceiro = (TextView) convertView.findViewById(R.id.tvParceiro);
         TextView tvDate = (TextView) convertView.findViewById(R.id.tvDate);
         TextView tvDescription = (TextView) convertView.findViewById(R.id.tvDescription);
 
@@ -63,6 +64,9 @@ public class CustomListAdapter extends BaseAdapter {
             tvDate.setVisibility(View.GONE);
         } else {
             tvDate.setText(item.getDate());
+        }
+        if(item.isParceiro()){
+            tvParceiro.setVisibility(View.VISIBLE);
         }
         tvDescription.setText(item.getDescription());
 

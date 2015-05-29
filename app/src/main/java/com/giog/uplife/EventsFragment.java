@@ -31,15 +31,15 @@ public class EventsFragment extends Fragment {
 
         list.add(new ListItem(R.drawable.event1,"Triathlon!",
                               "Venha participar do XV Triathlon Iemanjá. O circuito começa na orla do Pontal e vai até o Salobrinho",
-                              "01/09/15 08:00"));
+                              "01/09/15 08:00",false));
 
         list.add(new ListItem(R.drawable.event2,"II Remada da Prainha",
                 "Treine bastante e traga o seu caiaque para a II Remada da Prainha.",
-                "05/11/15 09:00"));
+                "05/11/15 09:00",false));
 
         list.add(new ListItem(R.drawable.event3,"I GP de Jet Ski da Bahia",
                 "Turbine seu Jet Ski e compareça ao I GP de Jet Ski da Bahia que ocorrerá no hidródromo dos alagados",
-                "11/12/15 07:30"));
+                "11/12/15 07:30",false));
 
         ListView listView = (ListView) view.findViewById(R.id.list);
 
