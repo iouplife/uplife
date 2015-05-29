@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ToolbarBlueStyle" />
+
+    <!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <!-- As the main content view, the view below consumes the entire
+             space available using match_parent in both dimensions. -->
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ListView
+            android:id="@+id/lvMenu"
+            android:layout_gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent" android:dividerHeight="0dp"
+            android:background="@color/blue_light"/>
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout><!-- From: file:/C:/Users/Giovanne/AndroidStudioProjects/UpLife/app/src/main/res/layout/activity_home.xml -->

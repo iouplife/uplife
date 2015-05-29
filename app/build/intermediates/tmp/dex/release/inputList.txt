@@ -1,0 +1,5 @@
+C:\Users\Giovanne\AndroidStudioProjects\UpLife\app\build\intermediates\classes\release
+C:\Users\Giovanne\AndroidStudioProjects\UpLife\app\build\intermediates\pre-dexed\release\support-annotations-21.0.3-f66152e5839627ea2c81744c9bcb9684a8fa1d2b.jar
+C:\Users\Giovanne\AndroidStudioProjects\UpLife\app\build\intermediates\pre-dexed\release\internal_impl-21.0.3-50355f3c7ca4678e4010ac81e167f812bc0a3e2a.jar
+C:\Users\Giovanne\AndroidStudioProjects\UpLife\app\build\intermediates\pre-dexed\release\classes-a2c6e48c356ab13fab29ee79a5d3240e7b0c4c90.jar
+C:\Users\Giovanne\AndroidStudioProjects\UpLife\app\build\intermediates\pre-dexed\release\classes-50714c01ba732e365918dbc69bb8a5bd824991df.jar

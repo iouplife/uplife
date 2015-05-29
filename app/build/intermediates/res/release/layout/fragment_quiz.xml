@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.giog.uplife.LoginFragment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p1" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New RadioButton"
+                android:id="@+id/r1">
+
+                <RadioButton
+                    android:id="@+id/p1yes"
+                    android:text="Sim"
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/p1no"
+                    android:text="Não"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/p2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p2" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New RadioButton"
+                android:id="@+id/r2">
+
+                <RadioButton
+                    android:id="@+id/p2yes"
+                    android:text="Sim"
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/p2no"
+                    android:text="Não"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/p3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p3" />
+
+            <Spinner
+                android:id="@+id/r3"
+                android:tag="Título"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/p4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p4" />
+
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/p5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p5" />
+
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_marginTop="10dp"
+            android:text="Enviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView><!-- From: file:/C:/Users/Giovanne/AndroidStudioProjects/UpLife/app/src/main/res/layout/fragment_quiz.xml -->
