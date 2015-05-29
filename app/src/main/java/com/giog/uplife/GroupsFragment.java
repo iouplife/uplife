@@ -52,7 +52,7 @@ public class GroupsFragment extends Fragment {
 
         ListView listView = (ListView) view.findViewById(R.id.list);
 
-        CustomListAdapter adapter = new CustomListAdapter(list,getActivity());
+        CustomGroupAdapter adapter = new CustomGroupAdapter(list,getActivity());
         listView.setAdapter(adapter);
 
         return view;

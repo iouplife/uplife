@@ -30,7 +30,7 @@ public class PlacesFragment extends Fragment {
         List<ListItem> list = new ArrayList<>();
 
         list.add(new ListItem(R.drawable.place4,"Academia Raíz",
-                "Localizada no Potal, a academia raíz conta com os melhores equipamentos da cidade. Venha fazer uma visita",
+                "Localizada no Pontal, a academia raíz conta com os melhores equipamentos da cidade. Venha fazer uma visita",
                 "",true));
 
         list.add(new ListItem(R.drawable.place5,"Academia Monster Corpus",

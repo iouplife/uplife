@@ -98,7 +98,7 @@ public class HomeActivity extends ActionBarActivity implements AdapterView.OnIte
                 fragment = DietFragment.newInstance();
                 break;
 
-            case 7:
+            case 8:
 //                getSupportActionBar().setTitle("Configurações");
 //                fragment = ConfigFragment.newInstance();
                 startActivity(new Intent(this, ConfigActivity.class));
