@@ -48,9 +48,14 @@
     <string-array name="menu">
         <item>Perfil</item>
         <item>Grupos</item>
-        <item>Lugares para exercícios</item>
+        <item>Locais</item>
         <item>Eventos</item>
         <item>Dietas</item>
+        <item>Lembrete</item>
+        <item>FAQ</item>
+        <item>Configurações</item>
+        <item>FeedBack</item>
+        <item>Sobre</item>
     </string-array>
     <string-array name="workout_routineA">
         <item>Supino Reto 30x30/20/10</item>

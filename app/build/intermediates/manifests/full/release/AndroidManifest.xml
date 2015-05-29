@@ -24,7 +24,12 @@
         </activity>
         <activity
             android:name="com.giog.uplife.HomeActivity"
-            android:label="HomeActivity"
+            android:label="Home"
+            android:theme="@style/AppThemeNoActionBar" >
+        </activity>
+        <activity
+            android:name="com.giog.uplife.ConfigActivity"
+            android:label="Configurações"
             android:theme="@style/AppThemeNoActionBar" >
         </activity>
     </application>
